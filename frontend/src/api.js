@@ -1,4 +1,4 @@
-const BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const BASE = process.env.REACT_APP_API_URL || 'https://hrms-lite-ethara-ai-0dr2.onrender.com';
 
 async function request(path, options = {}) {
   const res = await fetch(`${BASE}${path}`, {
